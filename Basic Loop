@@ -1,0 +1,86 @@
+## Basic Loop
+
+a=1 
+while a<=10:
+    print("LOOP")
+    a= a+1
+    
+    
+## Print n numbers
+
+n= int(input("Enter the number : "))
+i=1
+while i<=n:
+    print(i)
+    i = i+1
+    
+ 
+## Sum of n no. of Numbers 
+ 
+i=1
+sum= 0
+num= int(input("Enter a Number : "))
+while i<= num:
+    sum= i + sum
+    i= i + 1
+print(sum)
+
+
+
+## Table of a Number
+
+num= int(input("Enter a Number: "))
+i=1
+while i<=10:
+    print(num, "x", i, "=", num*i)
+    i= i + 1
+    
+
+## Print every number with sum  
+
+add= 1
+sum= 1 
+num= int(input("Enter a Number: "))
+while add<=num:
+    sum= sum + add
+    print(sum)
+    add= add + 1
+    
+    
+## Table with for loop
+
+num= int(input("Enter a Number: "))
+s= 1
+for i in range(10):
+    print(num, "x", s, "=", num*s)
+    s= s+1
+
+
+## Fibonacci Number
+
+a=0
+b=1
+for i in range(0,10):
+    print(a)
+    a,b= b, a+b
+
+
+## Reverse of a Number
+
+rev=0
+num= int(input("Enter a number: "))
+add=num
+while num>0:
+    rem= num % 10
+    rev= rev*10 + rem
+    num= num//10
+print("The reverse number is :", rev)
+add= add + rev
+print("Sum of Both numbers is: ", add)
+
+
+## Armstrong Number or not
+
+num= int(input("Enter Three Numbers: "))
+sum=0
+temp = number 
