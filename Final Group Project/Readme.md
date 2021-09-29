@@ -4,5 +4,5 @@ Python,
 R, 
 Excel, 
 Tableau, SAS. 
-We completed the analysis of a single dataset of vaccination data using above 5 tools .
+We have completed the analysis of a single dataset of vaccination data using 5 tools .
 
